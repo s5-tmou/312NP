@@ -1,6 +1,6 @@
 # 312NP
 
-
+The steps and commands I have tallied are from previous labs. Here are the commands and steps showing how I analyzed the STT3 family genes. The generated file will be attached.
 
 # 1.NCBI and BLAST
 
@@ -220,3 +220,14 @@ Generate a PDF file by running the script, this pdf file will include the phylog
 
       Rscript  --vanilla ~/lab08-$MYGIT/plotTreeAndDomains.r ~/lab08-$MYGIT/312NP/312NP.homologsf.outgroupbeta.treefile ~/lab08-$MYGIT/312NP/312NP.rps-blast.out ~/lab08-$MYGIT/312NP/312NP.tree.rps.pdf
 
+The results can be viewed with the 【less】 command
+
+mlr --inidx --ifs "\t" --opprint  cat ~/lab08-$MYGIT/312NP/312NP.rps-blast.out | tail -n +2 | less -S
+
+View proteins without annotations：
+
+      cut -f 1 ~/lab08-$MYGIT/globins/globins.rps-blast.out | sort | uniq -c
+
+View protein with most annotations:
+
+      awk '{a=$4-$3;print $1,'\t',a;}' ~/lab08-$MYGIT/312NP/312NP.rps-blast.out |  sort  -k2nr
