@@ -156,9 +156,41 @@ convert ~/lab05-$MYGIT/312NP/312NP.homologsf.al.midCl.treefile.svg ~/lab05-$MYGI
 
 # Gene and Species Tree-Lab 6
 
+Installing python：
+
+      mamba create -n my_python27_env python=2.7
+conda activate my_python27_env
+mamba install -y ete3
 
 
+Create a working directory-
 
+      mkdir ~/lab06-$MYGIT/312NP
 
+Copy gene file from Lab 5 to Lab 6:
 
+      cp ~/lab05-$MYGIT/312NP/312NP.homologs.al.mid.treefile ~/lab06-$MYGIT/312NP/312NP.homologs.al.mid.treefile
 
+Reconcile the gene and species tree using Notung:
+
+java -jar ~/tools/Notung-3.0_24-beta/Notung-3.0_24-beta.jar -s ~/lab05-$MYGIT/species.tre -g ~/lab06-$MYGIT/312NP/312NP.homologsf.pruned.treefile --reconcile --speciestag prefix --savepng --events --outputdir ~/lab06-$MYGIT/312NP/
+
+Using nw_display command can check species tree:
+
+      nw_display ~/lab05-$MYGIT/species.tre
+
+Using Notung assing species
+
+      grep NOTUNG-SPECIES-TREE ~/lab06-$MYGIT/312NP/312NP.homologsf.pruned.treefile.rec.ntg | sed -e "s/^\[&&NOTUNG-SPECIES-TREE//" -e "s/\]/;/" | nw_display -
+
+Generating gene trees within species:
+
+      python2.7 ~/tools/recPhyloXML/python/NOTUNGtoRecPhyloXML.py -g ~/lab06-$MYGIT/312NO/312NP.homologsf.pruned.treefile.rec.ntg --include.species
+
+Using thirdkind to create SVG file:
+
+      thirdkind -Iie -D 40 -f ~/lab06-$MYGIT/312NP/312NP.homologsf.pruned.treefile.rec.ntg.xml -o  ~/lab06-$MYGIT/312NP/312NP.homologsf.pruned.treefile.rec.svg
+
+Convert svg to PDF:
+
+      convert  -density 150 ~/lab06-$MYGIT/312NP/312NP.homologsf.pruned.treefile.rec.svg ~/lab06-$MYGIT/312NP/312NP.homologsf.pruned.treefile.rec.pdf
