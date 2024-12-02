@@ -88,8 +88,21 @@ R package msa and a script to make a PDF file:
 
        Rscript --vanilla ~/lab04-$MYGIT/plotMSA.R  ~/lab04-$MYGIT/312NP/312NP.homologs.al.fas
 
- 
+To calulate the width of the alignment:
 
+      alignbuddy  -al  ~/lab04-$MYGIT/312NP/312NP.homologs.al.fas
+
+calculate the length of the alignment after removing any column with gaps:
+
+      alignbuddy -trm all  ~/lab04-$MYGIT/312NP/312NP.homologs.al.fas | alignbuddy  -al
+
+calculate the length of the alignment after removing invariant (completely conserved) positions:
+
+      alignbuddy -dinv 'ambig' ~/lab04-$MYGIT/312NP/312NP.homologs.al.fas | alignbuddy  -al
+ 
+Next, we can use t_coffee to calculate the avgerage percent identity among all sequences in the alignment. The commond is: 
+
+      t_coffee -other_pg seq_reformat -in ~/lab04-$MYGIT/312NP/312NP.homologs.al.fas -output sim
 
 
 
