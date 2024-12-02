@@ -118,6 +118,43 @@ Copy the file from lab 4.:
 
       sed 's/ /_/g'  ~/lab04-$MYGIT/312NP/312NP.homologs.al.fas | seqkit grep -v -r -p "dupelabel" >  ~/lab05-$MYGIT/312NP/312NP.homologsf.al.fas
 
+Finding Maximum Likelihood Tree Estimates with IQ-TREE. Calculationg the best amino acid substitution model and amino acid frequencies, and estimating brach lengths. 
+
+      iqtree -s ~/lab05-$MYGIT/312NP/312NP.homologsf.al.fas -bb 1000 -nt 2 
+
+For STT3 genes, amino acid substitution model and amino acid frequencies are Q.plant+I+R3.
+
+The nw_display program displays an ASCII graphic of the .iqtree file's containment tree.
+      
+      nw_display ~/lab05-$MYGIT/312NP/312NP.homologsf.al.fas.treefile
+
+R scripts can be used to display the image, 0.4 is the size of the text labels, 15 is the label length.
+
+      Rscript --vanilla ~/lab05-$MYGIT/plotUnrooted.R  ~/lab05-$MYGIT/312NP/312NP.homologsf.al.fas.treefile ~/lab05-$MYGIT/312NP/312NP.homologsf.al.fas.treefile.pdf 0.4 15
+
+Using Gotree to create midpoint tree:
+
+      gotree reroot midpoint -i ~/lab05-$MYGIT/312NP/312NP.homologsf.al.fas.treefile -o ~/lab05-$MYGIT/312NP/312NP.homologsf.al.mid.treefile
+
+Using this command can look rooted tree:
+
+      nw_order -c n ~/lab05-$MYGIT/312NP/312NP.homologsf.al.mid.treefile  | nw_display -
+
+Using this command can change graphic:
+
+      nw_order -c n ~/lab05-$MYGIT/312NP/312NP.homologsf.al.mid.treefile | nw_display -w 1000 -b 'opacity:0' -s  >  ~/lab05-$MYGIT/312NP/312NP.homologsf.al.mid.treefile.svg -
+
+Change the svg image to pdf:
+
+      convert  ~/lab05-$MYGIT/312NP/312NP.homologsf.al.mid.treefile.svg  ~/lab05-$MYGIT/312NP/312NP.homologsf.al.mid.treefile.pdf
+
+Last, make a cladogram:
+
+      nw_order -c n ~/lab05-$MYGIT/globins/globins.homologsf.al.mid.treefile | nw_topology - | nw_display -s  -w 1000 > ~/lab05-$MYGIT/globins/globins.homologsf.al.midCl.treefile.svg -
+
+convert ~/lab05-$MYGIT/312NP/312NP.homologsf.al.midCl.treefile.svg ~/lab05-$MYGIT/312NP/312NP.homologsf.al.midCl.treefile.pdf
+
+# Gene and Species Tree-Lab 6
 
 
 
