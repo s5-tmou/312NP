@@ -56,7 +56,7 @@ The result is
 
       4 X.laevis
 
-# 2.multiple sequence alignment in muscle-Lab4 
+# 2.multiple sequence alignment in muscle-Lab 4 
 
 Create a working directory-
 
@@ -104,7 +104,21 @@ Next, we can use t_coffee to calculate the avgerage percent identity among all s
 
       t_coffee -other_pg seq_reformat -in ~/lab04-$MYGIT/312NP/312NP.homologs.al.fas -output sim
 
-# 3. Using IQ-TREE to Draw midpoint tree
+# 3. Using IQ-TREE and Gotree to Draw midpoint tree-Lab 5
+
+Create a working directory-
+
+      mkdir ~/lab05-$MYGIT/312NP
+
+Change directory
+
+      cd ~/lab05-$MYGIT/312NP
+
+Copy the file from lab 4.:
+
+      sed 's/ /_/g'  ~/lab04-$MYGIT/312NP/312NP.homologs.al.fas | seqkit grep -v -r -p "dupelabel" >  ~/lab05-$MYGIT/312NP/312NP.homologsf.al.fas
+
+
 
 
 
