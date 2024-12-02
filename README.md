@@ -1,4 +1,7 @@
 # 312NP
+
+
+
 # 1.NCBI and BLAST
 
 In Lab 3
@@ -154,7 +157,7 @@ Last, make a cladogram:
 
 convert ~/lab05-$MYGIT/312NP/312NP.homologsf.al.midCl.treefile.svg ~/lab05-$MYGIT/312NP/312NP.homologsf.al.midCl.treefile.pdf
 
-# Gene and Species Tree-Lab 6
+# 4.Gene and Species Tree-Lab 6
 
 Installing python：
 
@@ -173,7 +176,7 @@ Copy gene file from Lab 5 to Lab 6:
 
 Reconcile the gene and species tree using Notung:
 
-java -jar ~/tools/Notung-3.0_24-beta/Notung-3.0_24-beta.jar -s ~/lab05-$MYGIT/species.tre -g ~/lab06-$MYGIT/312NP/312NP.homologsf.pruned.treefile --reconcile --speciestag prefix --savepng --events --outputdir ~/lab06-$MYGIT/312NP/
+      java -jar ~/tools/Notung-3.0_24-beta/Notung-3.0_24-beta.jar -s ~/lab05-$MYGIT/species.tre -g ~/lab06-$MYGIT/312NP/312NP.homologsf.pruned.treefile --reconcile --speciestag prefix --savepng --events --outputdir ~/lab06-$MYGIT/312NP/
 
 Using nw_display command can check species tree:
 
@@ -194,3 +197,26 @@ Using thirdkind to create SVG file:
 Convert svg to PDF:
 
       convert  -density 150 ~/lab06-$MYGIT/312NP/312NP.homologsf.pruned.treefile.rec.svg ~/lab06-$MYGIT/312NP/312NP.homologsf.pruned.treefile.rec.pdf
+
+# 5.Pfam domains-Lab 8
+
+Create a working directory-
+
+      mkdir ~/lab08-$MYGIT/312NP
+
+Need to copy unaligned sequences from Lab 4:
+
+      sed 's/*//' ~/lab04-$MYGIT/312NP/312NP.homologs.fas > ~/lab08-$MYGIT/312NP/312NP.homologs.fas
+
+Run the rps blast command to get the desired result by adjusting the e value.
+
+      rpsblast -query ~/lab08-$MYGIT/312NP/312NP.homologs.fas -db ~/data/Pfam/Pfam -out ~/lab08-$MYGIT/312NP/312NP.rps-blast.out  -outfmt "6 qseqid qlen qstart qend evalue stitle" -evalue .0000000001
+
+Also need to copy the gene tree from Lab 5:
+
+      cp ~/lab05-$MYGIT/312NP/312NP.homologsf.outgroupbeta.treefile ~/lab08-$MYGIT/312NP
+
+Generate a PDF file by running the script, this pdf file will include the phylogenetic tree and the pfam domain prediction.【ggtree】 for drawing phylogenetic trees, 【drawProteins】 for drawing Pfam domains. This 2 package included by R script.
+
+      Rscript  --vanilla ~/lab08-$MYGIT/plotTreeAndDomains.r ~/lab08-$MYGIT/312NP/312NP.homologsf.outgroupbeta.treefile ~/lab08-$MYGIT/312NP/312NP.rps-blast.out ~/lab08-$MYGIT/312NP/312NP.tree.rps.pdf
+
