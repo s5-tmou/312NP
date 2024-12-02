@@ -1,5 +1,5 @@
 # 312NP
-1.NCBI and BLAST
+# 1.NCBI and BLAST
 
 In Lab 3
 
@@ -56,7 +56,7 @@ The result is
 
       4 X.laevis
 
-2.multiple sequence alignment in muscle-Lab4 
+# 2.multiple sequence alignment in muscle-Lab4 
 
 Create a working directory-
 
@@ -103,6 +103,10 @@ calculate the length of the alignment after removing invariant (completely conse
 Next, we can use t_coffee to calculate the avgerage percent identity among all sequences in the alignment. The commond is: 
 
       t_coffee -other_pg seq_reformat -in ~/lab04-$MYGIT/312NP/312NP.homologs.al.fas -output sim
+
+# 3. Using IQ-TREE to Draw midpoint tree
+
+
 
 
 
