@@ -1,0 +1,1409 @@
+<recPhylo>
+  <spTree>
+    <phylogeny>
+      <clade>
+        <name>Gnathostomata</name>
+        <clade>
+          <name>Euteleostomi</name>
+          <clade>
+            <name>Tetrapoda</name>
+            <clade>
+              <name>Amniota</name>
+              <clade>
+                <name>Boreoeutheria</name>
+                <clade>
+                  <name>Laurasiatheria</name>
+                  <clade>
+                    <name>E.caballus</name>
+                  </clade>
+                  <clade>
+                    <name>F.catus</name>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>H.sapiens</name>
+                </clade>
+              </clade>
+              <clade>
+                <name>Sauria</name>
+                <clade>
+                  <name>Archelosauria</name>
+                  <clade>
+                    <name>G.gallus</name>
+                  </clade>
+                  <clade>
+                    <name>C.mydas</name>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>S.townsendi</name>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>X.laevis</name>
+            </clade>
+          </clade>
+          <clade>
+            <name>Clupeocephala</name>
+            <clade>
+              <name>Euteleosteomorpha</name>
+              <clade>
+                <name>G.aculeatus</name>
+              </clade>
+              <clade>
+                <name>S.salar</name>
+              </clade>
+            </clade>
+            <clade>
+              <name>D.rerio</name>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <name>C.carcharias</name>
+        </clade>
+      </clade>
+    </phylogeny>
+  </spTree>
+  <recGeneTree>
+    <phylogeny rooted="true">
+      <clade>
+        <name>n99</name>
+        <confidence>1.0</confidence>
+        <branch_length>1.0</branch_length>
+        <eventsRec>
+          <duplication speciesLocation="Gnathostomata"></duplication>
+        </eventsRec>
+        <clade>
+          <name>n73</name>
+          <confidence>1.0</confidence>
+          <branch_length>1.53232740775</branch_length>
+          <eventsRec>
+            <duplication speciesLocation="Gnathostomata"></duplication>
+          </eventsRec>
+          <clade>
+            <name>n69</name>
+            <confidence>1.0</confidence>
+            <branch_length>0.0686619185</branch_length>
+            <eventsRec>
+              <duplication speciesLocation="Gnathostomata"></duplication>
+            </eventsRec>
+            <clade>
+              <name>n67</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.0181884508</branch_length>
+              <eventsRec>
+                <duplication speciesLocation="Gnathostomata"></duplication>
+              </eventsRec>
+              <clade>
+                <name>n65</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.0150853778</branch_length>
+                <eventsRec>
+                  <duplication speciesLocation="Gnathostomata"></duplication>
+                </eventsRec>
+                <clade>
+                  <name>n59</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.0579671706</branch_length>
+                  <eventsRec>
+                    <duplication speciesLocation="Gnathostomata"></duplication>
+                  </eventsRec>
+                  <clade>
+                    <name>r63</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Gnathostomata"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r61</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Euteleostomi"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r59</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Tetrapoda"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n45</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0472533364</branch_length>
+                          <eventsRec>
+                            <duplication speciesLocation="X.laevis"></duplication>
+                          </eventsRec>
+                          <clade>
+                            <name>X.laevis_stt3b.L_dolichyldiphosphooligosaccharideprotein_glycosyl</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0074932859</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="X.laevis" geneName="X.laevis_stt3b.L_dolichyldiphosphooligosaccharideprotein_glycosyl"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>X.laevis_stt3b.S_dolichyldiphosphooligosaccharideprotein_glycosyl</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0059436446</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="X.laevis" geneName="X.laevis_stt3b.S_dolichyldiphosphooligosaccharideprotein_glycosyl"></leaf>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Amniota*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Amniota"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>Clupeocephala*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="Clupeocephala"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>C.carcharias*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="C.carcharias"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>n58</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.0268505939</branch_length>
+                    <eventsRec>
+                      <duplication speciesLocation="Gnathostomata"></duplication>
+                    </eventsRec>
+                    <clade>
+                      <name>r77</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Gnathostomata"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r75</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Euteleostomi"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r73</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Tetrapoda"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>n54</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0071007696</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Amniota"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>n50</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.0798338494</branch_length>
+                              <eventsRec>
+                                <duplication speciesLocation="Boreoeutheria"></duplication>
+                              </eventsRec>
+                              <clade>
+                                <name>n48</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.0012502813</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Boreoeutheria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>r65</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <speciation speciesLocation="Laurasiatheria"></speciation>
+                                  </eventsRec>
+                                  <clade>
+                                    <name>E.caballus_STT3B_dolichyldiphosphooligosaccharideprotein_glycosyl</name>
+                                    <confidence>1.0</confidence>
+                                    <branch_length>9.969e-07</branch_length>
+                                    <eventsRec>
+                                      <leaf speciesLocation="E.caballus" geneName="E.caballus_STT3B_dolichyldiphosphooligosaccharideprotein_glycosyl"></leaf>
+                                    </eventsRec>
+                                  </clade>
+                                  <clade>
+                                    <name>F.catus*LOST</name>
+                                    <confidence>1.0</confidence>
+                                    <branch_length>1.0</branch_length>
+                                    <eventsRec>
+                                      <loss speciesLocation="F.catus"></loss>
+                                    </eventsRec>
+                                  </clade>
+                                </clade>
+                                <clade>
+                                  <name>H.sapiens_STT3B_dolichyldiphosphooligosaccharideprotein_glycosylt</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.0049899132</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="H.sapiens" geneName="H.sapiens_STT3B_dolichyldiphosphooligosaccharideprotein_glycosylt"></leaf>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <name>r69</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Boreoeutheria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>r67</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <speciation speciesLocation="Laurasiatheria"></speciation>
+                                  </eventsRec>
+                                  <clade>
+                                    <name>F.catus_STT3B_dolichyldiphosphooligosaccharideprotein_glycosyltra</name>
+                                    <confidence>1.0</confidence>
+                                    <branch_length>2.6116e-06</branch_length>
+                                    <eventsRec>
+                                      <leaf speciesLocation="F.catus" geneName="F.catus_STT3B_dolichyldiphosphooligosaccharideprotein_glycosyltra"></leaf>
+                                    </eventsRec>
+                                  </clade>
+                                  <clade>
+                                    <name>E.caballus*LOST</name>
+                                    <confidence>1.0</confidence>
+                                    <branch_length>1.0</branch_length>
+                                    <eventsRec>
+                                      <loss speciesLocation="E.caballus"></loss>
+                                    </eventsRec>
+                                  </clade>
+                                </clade>
+                                <clade>
+                                  <name>H.sapiens*LOST</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <loss speciesLocation="H.sapiens"></loss>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>n53</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.0033900114</branch_length>
+                              <eventsRec>
+                                <speciation speciesLocation="Sauria"></speciation>
+                              </eventsRec>
+                              <clade>
+                                <name>r71</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Archelosauria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>C.mydas_STT3B_dolichyldiphosphooligosaccharideprotein_glycosyltra</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.0151275293</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="C.mydas" geneName="C.mydas_STT3B_dolichyldiphosphooligosaccharideprotein_glycosyltra"></leaf>
+                                  </eventsRec>
+                                </clade>
+                                <clade>
+                                  <name>G.gallus*LOST</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <loss speciesLocation="G.gallus"></loss>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <name>S.townsendi_STT3B_dolichyldiphosphooligosaccharideprotein_glycosy</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>0.0159727677</branch_length>
+                                <eventsRec>
+                                  <leaf speciesLocation="S.townsendi" geneName="S.townsendi_STT3B_dolichyldiphosphooligosaccharideprotein_glycosy"></leaf>
+                                </eventsRec>
+                              </clade>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>X.laevis*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="X.laevis"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Clupeocephala*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Clupeocephala"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>C.carcharias*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="C.carcharias"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>n57</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.0060596751</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Gnathostomata"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r87</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Euteleostomi"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r85</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Tetrapoda"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>r83</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Amniota"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>r81</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <speciation speciesLocation="Sauria"></speciation>
+                              </eventsRec>
+                              <clade>
+                                <name>r79</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <speciation speciesLocation="Archelosauria"></speciation>
+                                </eventsRec>
+                                <clade>
+                                  <name>G.gallus_STT3B_dolichyldiphosphooligosaccharideprotein_glycosyltr</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>0.0186066307</branch_length>
+                                  <eventsRec>
+                                    <leaf speciesLocation="G.gallus" geneName="G.gallus_STT3B_dolichyldiphosphooligosaccharideprotein_glycosyltr"></leaf>
+                                  </eventsRec>
+                                </clade>
+                                <clade>
+                                  <name>C.mydas*LOST</name>
+                                  <confidence>1.0</confidence>
+                                  <branch_length>1.0</branch_length>
+                                  <eventsRec>
+                                    <loss speciesLocation="C.mydas"></loss>
+                                  </eventsRec>
+                                </clade>
+                              </clade>
+                              <clade>
+                                <name>S.townsendi*LOST</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <loss speciesLocation="S.townsendi"></loss>
+                                </eventsRec>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>Boreoeutheria*LOST</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <loss speciesLocation="Boreoeutheria"></loss>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>X.laevis*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="X.laevis"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Clupeocephala*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Clupeocephala"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>C.carcharias_stt3b_dolichyldiphosphooligosaccharideprotein_glycos</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.0824806762</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="C.carcharias" geneName="C.carcharias_stt3b_dolichyldiphosphooligosaccharideprotein_glycos"></leaf>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>r93</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Gnathostomata"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r91</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Euteleostomi"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r89</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Clupeocephala"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>n64</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.0179580636</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n62</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.024295248</branch_length>
+                          <eventsRec>
+                            <duplication speciesLocation="S.salar"></duplication>
+                          </eventsRec>
+                          <clade>
+                            <name>S.salar_LOC106570075_dolichyldiphosphooligosaccharideprotein_glyc</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0031994893</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="S.salar" geneName="S.salar_LOC106570075_dolichyldiphosphooligosaccharideprotein_glyc"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>S.salar_LOC106588202_dolichyldiphosphooligosaccharideprotein_glyc</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0153679412</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="S.salar" geneName="S.salar_LOC106588202_dolichyldiphosphooligosaccharideprotein_glyc"></leaf>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>G.aculeatus_LOC120826197_dolichyldiphosphooligosaccharideprotein_</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0428059564</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="G.aculeatus" geneName="G.aculeatus_LOC120826197_dolichyldiphosphooligosaccharideprotein_"></leaf>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>D.rerio*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="D.rerio"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Tetrapoda*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Tetrapoda"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>C.carcharias*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="C.carcharias"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+              </clade>
+              <clade>
+                <name>r99</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Gnathostomata"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r97</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Euteleostomi"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r95</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Clupeocephala"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>D.rerio_stt3b_dolichyldiphosphooligosaccharideprotein_glycosyltra</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.0373844141</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="D.rerio" geneName="D.rerio_stt3b_dolichyldiphosphooligosaccharideprotein_glycosyltra"></leaf>
+                      </eventsRec>
+                    </clade>
+                    <clade>
+                      <name>Euteleosteomorpha*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Euteleosteomorpha"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Tetrapoda*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Tetrapoda"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>C.carcharias*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="C.carcharias"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>r107</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Gnathostomata"></speciation>
+              </eventsRec>
+              <clade>
+                <name>r105</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Euteleostomi"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r103</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Clupeocephala"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r101</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>G.aculeatus_LOC120810931_dolichyldiphosphooligosaccharideprotein_</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.0921728443</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="G.aculeatus" geneName="G.aculeatus_LOC120810931_dolichyldiphosphooligosaccharideprotein_"></leaf>
+                      </eventsRec>
+                    </clade>
+                    <clade>
+                      <name>S.salar*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="S.salar"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>D.rerio*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="D.rerio"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Tetrapoda*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Tetrapoda"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>C.carcharias*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="C.carcharias"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <name>r115</name>
+            <confidence>1.0</confidence>
+            <branch_length>1.0</branch_length>
+            <eventsRec>
+              <speciation speciesLocation="Gnathostomata"></speciation>
+            </eventsRec>
+            <clade>
+              <name>r113</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Euteleostomi"></speciation>
+              </eventsRec>
+              <clade>
+                <name>r111</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Clupeocephala"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r109</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>n72</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>2.2966e-06</branch_length>
+                    <eventsRec>
+                      <duplication speciesLocation="S.salar"></duplication>
+                    </eventsRec>
+                    <clade>
+                      <name>S.salar_LOC106606144_dolichyldiphosphooligosaccharideprotein_glyc</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>9.969e-07</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="S.salar" geneName="S.salar_LOC106606144_dolichyldiphosphooligosaccharideprotein_glyc"></leaf>
+                      </eventsRec>
+                    </clade>
+                    <clade>
+                      <name>S.salar_LOC123727364_dolichyldiphosphooligosaccharideprotein_glyc</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>9.969e-07</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="S.salar" geneName="S.salar_LOC123727364_dolichyldiphosphooligosaccharideprotein_glyc"></leaf>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>G.aculeatus*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="G.aculeatus"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>D.rerio*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="D.rerio"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>Tetrapoda*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="Tetrapoda"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+            <clade>
+              <name>C.carcharias*LOST</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <loss speciesLocation="C.carcharias"></loss>
+              </eventsRec>
+            </clade>
+          </clade>
+        </clade>
+        <clade>
+          <name>n98</name>
+          <confidence>1.0</confidence>
+          <branch_length>1.70280555725</branch_length>
+          <eventsRec>
+            <duplication speciesLocation="Gnathostomata"></duplication>
+          </eventsRec>
+          <clade>
+            <name>n96</name>
+            <confidence>1.0</confidence>
+            <branch_length>0.0047729579</branch_length>
+            <eventsRec>
+              <duplication speciesLocation="Gnathostomata"></duplication>
+            </eventsRec>
+            <clade>
+              <name>n92</name>
+              <confidence>1.0</confidence>
+              <branch_length>0.0124791373</branch_length>
+              <eventsRec>
+                <duplication speciesLocation="Gnathostomata"></duplication>
+              </eventsRec>
+              <clade>
+                <name>n82</name>
+                <confidence>1.0</confidence>
+                <branch_length>0.0180094928</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Gnathostomata"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r123</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Euteleostomi"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>n80</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.0173739898</branch_length>
+                    <eventsRec>
+                      <duplication speciesLocation="Clupeocephala"></duplication>
+                    </eventsRec>
+                    <clade>
+                      <name>n76</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.0045919861</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Clupeocephala"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r117</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>G.aculeatus_stt3a_dolichyldiphosphooligosaccharideprotein_glycosy</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0323224782</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="G.aculeatus" geneName="G.aculeatus_stt3a_dolichyldiphosphooligosaccharideprotein_glycosy"></leaf>
+                          </eventsRec>
+                        </clade>
+                        <clade>
+                          <name>S.salar*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="S.salar"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>D.rerio_stt3a_dolichyldiphosphooligosaccharideprotein_glycosyltra</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.04620771</branch_length>
+                        <eventsRec>
+                          <leaf speciesLocation="D.rerio" geneName="D.rerio_stt3a_dolichyldiphosphooligosaccharideprotein_glycosyltra"></leaf>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>r121</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Clupeocephala"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r119</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Euteleosteomorpha"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n79</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0184350576</branch_length>
+                          <eventsRec>
+                            <duplication speciesLocation="S.salar"></duplication>
+                          </eventsRec>
+                          <clade>
+                            <name>S.salar_LOC106603544_dolichyldiphosphooligosaccharideprotein_glyc</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>2.0491e-06</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="S.salar" geneName="S.salar_LOC106603544_dolichyldiphosphooligosaccharideprotein_glyc"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>S.salar_stt3a_Dolichyldiphosphooligosaccharideprotein_glycosyltra</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0383795402</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="S.salar" geneName="S.salar_stt3a_Dolichyldiphosphooligosaccharideprotein_glycosyltra"></leaf>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>G.aculeatus*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="G.aculeatus"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>D.rerio*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="D.rerio"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Tetrapoda*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Tetrapoda"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>C.carcharias_stt3a_dolichyldiphosphooligosaccharideprotein_glycos</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>0.0514382739</branch_length>
+                  <eventsRec>
+                    <leaf speciesLocation="C.carcharias" geneName="C.carcharias_stt3a_dolichyldiphosphooligosaccharideprotein_glycos"></leaf>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>r147</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Gnathostomata"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r145</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Euteleostomi"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>n91</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>0.0035540853</branch_length>
+                    <eventsRec>
+                      <duplication speciesLocation="Tetrapoda"></duplication>
+                    </eventsRec>
+                    <clade>
+                      <name>n89</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.0033705017</branch_length>
+                      <eventsRec>
+                        <duplication speciesLocation="Tetrapoda"></duplication>
+                      </eventsRec>
+                      <clade>
+                        <name>n87</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>0.0026819126</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Tetrapoda"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>n85</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>0.0216521706</branch_length>
+                          <eventsRec>
+                            <duplication speciesLocation="X.laevis"></duplication>
+                          </eventsRec>
+                          <clade>
+                            <name>X.laevis_stt3a.L_STT3A_subunit_of_the_oligosaccharyltransferase_c</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0046456637</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="X.laevis" geneName="X.laevis_stt3a.L_STT3A_subunit_of_the_oligosaccharyltransferase_c"></leaf>
+                            </eventsRec>
+                          </clade>
+                          <clade>
+                            <name>X.laevis_stt3a.S_dolichyldiphosphooligosaccharideprotein_glycosyl</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>0.0093089855</branch_length>
+                            <eventsRec>
+                              <leaf speciesLocation="X.laevis" geneName="X.laevis_stt3a.S_dolichyldiphosphooligosaccharideprotein_glycosyl"></leaf>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>r129</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Amniota"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>r127</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Sauria"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>r125</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <speciation speciesLocation="Archelosauria"></speciation>
+                              </eventsRec>
+                              <clade>
+                                <name>C.mydas_STT3A_dolichyldiphosphooligosaccharideprotein_glycosyltra</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>2.1859e-06</branch_length>
+                                <eventsRec>
+                                  <leaf speciesLocation="C.mydas" geneName="C.mydas_STT3A_dolichyldiphosphooligosaccharideprotein_glycosyltra"></leaf>
+                                </eventsRec>
+                              </clade>
+                              <clade>
+                                <name>G.gallus*LOST</name>
+                                <confidence>1.0</confidence>
+                                <branch_length>1.0</branch_length>
+                                <eventsRec>
+                                  <loss speciesLocation="G.gallus"></loss>
+                                </eventsRec>
+                              </clade>
+                            </clade>
+                            <clade>
+                              <name>S.townsendi*LOST</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <loss speciesLocation="S.townsendi"></loss>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>Boreoeutheria*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="Boreoeutheria"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>r135</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Tetrapoda"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r133</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Amniota"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>r131</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Sauria"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>S.townsendi_STT3A_dolichyldiphosphooligosaccharideprotein_glycosy</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.0166276711</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="S.townsendi" geneName="S.townsendi_STT3A_dolichyldiphosphooligosaccharideprotein_glycosy"></leaf>
+                              </eventsRec>
+                            </clade>
+                            <clade>
+                              <name>Archelosauria*LOST</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <loss speciesLocation="Archelosauria"></loss>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>Boreoeutheria*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="Boreoeutheria"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>X.laevis*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="X.laevis"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>r143</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Tetrapoda"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>r141</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Amniota"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>r139</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <speciation speciesLocation="Sauria"></speciation>
+                          </eventsRec>
+                          <clade>
+                            <name>r137</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <speciation speciesLocation="Archelosauria"></speciation>
+                            </eventsRec>
+                            <clade>
+                              <name>G.gallus_STT3A_dolichyldiphosphooligosaccharideprotein_glycosyltr</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>0.0054130437</branch_length>
+                              <eventsRec>
+                                <leaf speciesLocation="G.gallus" geneName="G.gallus_STT3A_dolichyldiphosphooligosaccharideprotein_glycosyltr"></leaf>
+                              </eventsRec>
+                            </clade>
+                            <clade>
+                              <name>C.mydas*LOST</name>
+                              <confidence>1.0</confidence>
+                              <branch_length>1.0</branch_length>
+                              <eventsRec>
+                                <loss speciesLocation="C.mydas"></loss>
+                              </eventsRec>
+                            </clade>
+                          </clade>
+                          <clade>
+                            <name>S.townsendi*LOST</name>
+                            <confidence>1.0</confidence>
+                            <branch_length>1.0</branch_length>
+                            <eventsRec>
+                              <loss speciesLocation="S.townsendi"></loss>
+                            </eventsRec>
+                          </clade>
+                        </clade>
+                        <clade>
+                          <name>Boreoeutheria*LOST</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>1.0</branch_length>
+                          <eventsRec>
+                            <loss speciesLocation="Boreoeutheria"></loss>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>X.laevis*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="X.laevis"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Clupeocephala*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Clupeocephala"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>C.carcharias*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="C.carcharias"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+            </clade>
+            <clade>
+              <name>r157</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Gnathostomata"></speciation>
+              </eventsRec>
+              <clade>
+                <name>r155</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Euteleostomi"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r153</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Tetrapoda"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r151</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Amniota"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>r149</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <speciation speciesLocation="Boreoeutheria"></speciation>
+                      </eventsRec>
+                      <clade>
+                        <name>n95</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>9.969e-07</branch_length>
+                        <eventsRec>
+                          <speciation speciesLocation="Laurasiatheria"></speciation>
+                        </eventsRec>
+                        <clade>
+                          <name>F.catus_STT3A_dolichyldiphosphooligosaccharideprotein_glycosyltra</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>9.969e-07</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="F.catus" geneName="F.catus_STT3A_dolichyldiphosphooligosaccharideprotein_glycosyltra"></leaf>
+                          </eventsRec>
+                        </clade>
+                        <clade>
+                          <name>E.caballus_STT3A_dolichyldiphosphooligosaccharideprotein_glycosyl</name>
+                          <confidence>1.0</confidence>
+                          <branch_length>9.969e-07</branch_length>
+                          <eventsRec>
+                            <leaf speciesLocation="E.caballus" geneName="E.caballus_STT3A_dolichyldiphosphooligosaccharideprotein_glycosyl"></leaf>
+                          </eventsRec>
+                        </clade>
+                      </clade>
+                      <clade>
+                        <name>H.sapiens*LOST</name>
+                        <confidence>1.0</confidence>
+                        <branch_length>1.0</branch_length>
+                        <eventsRec>
+                          <loss speciesLocation="H.sapiens"></loss>
+                        </eventsRec>
+                      </clade>
+                    </clade>
+                    <clade>
+                      <name>Sauria*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Sauria"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>X.laevis*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="X.laevis"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>Clupeocephala*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="Clupeocephala"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>C.carcharias*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="C.carcharias"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+          </clade>
+          <clade>
+            <name>r167</name>
+            <confidence>1.0</confidence>
+            <branch_length>1.0</branch_length>
+            <eventsRec>
+              <speciation speciesLocation="Gnathostomata"></speciation>
+            </eventsRec>
+            <clade>
+              <name>r165</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <speciation speciesLocation="Euteleostomi"></speciation>
+              </eventsRec>
+              <clade>
+                <name>r163</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <speciation speciesLocation="Tetrapoda"></speciation>
+                </eventsRec>
+                <clade>
+                  <name>r161</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <speciation speciesLocation="Amniota"></speciation>
+                  </eventsRec>
+                  <clade>
+                    <name>r159</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <speciation speciesLocation="Boreoeutheria"></speciation>
+                    </eventsRec>
+                    <clade>
+                      <name>H.sapiens_STT3A_dolichyldiphosphooligosaccharideprotein_glycosylt</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>0.0034670374</branch_length>
+                      <eventsRec>
+                        <leaf speciesLocation="H.sapiens" geneName="H.sapiens_STT3A_dolichyldiphosphooligosaccharideprotein_glycosylt"></leaf>
+                      </eventsRec>
+                    </clade>
+                    <clade>
+                      <name>Laurasiatheria*LOST</name>
+                      <confidence>1.0</confidence>
+                      <branch_length>1.0</branch_length>
+                      <eventsRec>
+                        <loss speciesLocation="Laurasiatheria"></loss>
+                      </eventsRec>
+                    </clade>
+                  </clade>
+                  <clade>
+                    <name>Sauria*LOST</name>
+                    <confidence>1.0</confidence>
+                    <branch_length>1.0</branch_length>
+                    <eventsRec>
+                      <loss speciesLocation="Sauria"></loss>
+                    </eventsRec>
+                  </clade>
+                </clade>
+                <clade>
+                  <name>X.laevis*LOST</name>
+                  <confidence>1.0</confidence>
+                  <branch_length>1.0</branch_length>
+                  <eventsRec>
+                    <loss speciesLocation="X.laevis"></loss>
+                  </eventsRec>
+                </clade>
+              </clade>
+              <clade>
+                <name>Clupeocephala*LOST</name>
+                <confidence>1.0</confidence>
+                <branch_length>1.0</branch_length>
+                <eventsRec>
+                  <loss speciesLocation="Clupeocephala"></loss>
+                </eventsRec>
+              </clade>
+            </clade>
+            <clade>
+              <name>C.carcharias*LOST</name>
+              <confidence>1.0</confidence>
+              <branch_length>1.0</branch_length>
+              <eventsRec>
+                <loss speciesLocation="C.carcharias"></loss>
+              </eventsRec>
+            </clade>
+          </clade>
+        </clade>
+      </clade>
+    </phylogeny>
+  </recGeneTree>
+</recPhylo>
